@@ -1,4 +1,5 @@
 <?php
+$random 	= rand(123456789, 6);
 // cek koneksi
 echo "\n[+] Mengecek Koneksi Internet ...";
 $cek = get_headers('https://facebook.com');
@@ -13,7 +14,12 @@ if (!preg_match('/200/', $cek[0])) {
 function tampil()
 {
 	echo "
-Tracking System v.".$version."
+Tracking System v. 1.0.0
+
+--------MAIN MENU--------
+--GPS
+--IP
+--PHISING
 
  > ";
 }
