@@ -1,3 +1,4 @@
+<?php
 // cek koneksi
 echo "\n[+] Mengecek Koneksi Internet ...";
 $cek = get_headers('https://facebook.com');
