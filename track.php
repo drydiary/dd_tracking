@@ -16,7 +16,6 @@ function tampil()
 	echo "
 Tracking System v.".$version."
 
-	--GPS  --IP  --PHISING
  > ";
 }
 
